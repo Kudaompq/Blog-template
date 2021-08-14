@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>kudaompq的博客</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/kudaompq.css">
+    <link rel="stylesheet" href="css/custom.css">
+<!--    图标的cdn-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container margin-b-lg">
+    <nav class="navbar navbar-expand-md border-bottom">
+        <!-- logo -->
+        <h1><a class="navbar-brand text-dark font-size-bg" href="#">kudaompq的博客</a></h1>
+        <!-- 当屏幕小的时候自动收缩导航栏改用下拉列表 -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNavbar">
+            <i class="fa fa-bars"></i>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="headerNavbar">
+            <ul class="navbar-nav font-size-lg" id="headerNavbar-ul">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">归档</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">分类</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">标签</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#" ><i class="fa fa-search fa-fw"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container margin-b-lg">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="archive shadow-small">
+                <div class="archive-header text-center">
+                    <div class="archive-header-title"><span class="border-bottom">About Me</span></div>
+                </div>
+                 <div class="about-content" >
+                     <div class="about-item">本人没什么好说的</div>
+                     <div class="about-item">
+                        性别：<span>男</span>
+                     </div>
+                     <div class="about-item">
+                         现居：<span>中国</span>
+                     </div>
+                     <div class="about-item">
+                         政治面貌：<span>团员</span>
+                     </div>
+                     <div class="about-item">
+                         职业：<span>学生</span>
+                     </div>
+                     <div class="about-item">
+                         个人简介：<span>我是废物</span>
+                     </div>
+                 </div>
+                <!--提交评论-->
+                <div class="archive-header margin-tb-large border-top">
+                    <div class="comment-header-title margin-t-normal" id="comment">评论</div>
+                    <div class="comment-body">
+                        <form action="#" class="form">
+                            <div class="row">
+                                <div class="col-sm-2 text-center">
+                                    <img src="http://images.kudaompq.top/20210812230344.jpg" alt="" class="rounded-circle" style="width: 50px">
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">昵称</span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="必填" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">邮箱</span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="必填" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <a href="javascript:void(0);" onclick="onloadFile()"><i class="fa fa-image"></i></a>
+                                            <input type="file" style="display: none" name="file" id="file">
+                                            <button type="submit" class="btn btn-sm btn-light float-right">发送</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--评论list-->
+                <div class="archive-header margin-tb-large">
+                    <div class="comment-header-title margin-t-normal">3条评论</div>
+                    <div class="comment-reply-body">
+                        <div class="comment-item">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <img src="http://images.kudaompq.top/20210812230344.jpg" alt="" class="rounded-circle" style="width: 40px;">
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="margin-ml-normal">
+                                        kudaompq<span class="font-size-sm">&nbsp;&nbsp;&nbsp;2021-8-13</span>
+                                        <a href="#comment" class="float-right"><i class="fa fa-comment-o"></i></a>
+                                    </div>
+                                    <div class="margin-tb-normal margin-ml-normal">
+                                        <p>
+                                            间歇性踌躇满志，持续性混吃等死怎么治
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <img src="http://images.kudaompq.top/20210812230344.jpg" alt="" class="rounded-circle" style="width: 40px;">
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="margin-ml-normal">
+                                        kudaompq<span class="font-size-sm">&nbsp;&nbsp;&nbsp;2021-8-13</span>
+                                        <a href="#comment" class="float-right"><i class="fa fa-comment-o"></i></a>
+                                    </div>
+                                    <div class="margin-tb-normal margin-ml-normal">
+                                        <p>
+                                            间歇性踌躇满志，持续性混吃等死怎么治
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-t-normal">
+                                <div class="col-sm-2">
+                                    <img src="http://images.kudaompq.top/20210812230344.jpg" alt="" class="rounded-circle" style="width: 30px;">
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="margin-ml-normal">
+                                        kudaompq<span class="font-size-sm">&nbsp;&nbsp;&nbsp;2021-8-13</span>
+                                        <a href="#comment" class="float-right"><i class="fa fa-comment-o"></i></a>
+                                    </div>
+                                    <div class="margin-t-sm margin-ml-normal">
+                                        <p class="font-size-sm">回复@kudaompq</p>
+                                    </div>
+                                    <div class="margin-tb-normal margin-ml-normal">
+                                        <p>
+                                            混吃等死就行
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <img src="http://images.kudaompq.top/20210812230344.jpg" alt="" class="rounded-circle" style="width: 40px;">
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="margin-ml-normal">
+                                        kudaompq<span class="font-size-sm">&nbsp;&nbsp;&nbsp;2021-8-13</span>
+                                        <a href="#comment" class="float-right"><i class="fa fa-comment-o"></i></a>
+                                    </div>
+                                    <div class="margin-tb-normal margin-ml-normal">
+                                        <p>
+                                            间歇性踌躇满志，持续性混吃等死怎么治
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--  bar  -->
+        <div class="col-sm-3">
+            <div class="bar shadow-small text-center">
+                <img src="http://images.kudaompq.top/20210812230344.jpg" class="rounded-circle" alt="" style="width: 110px">
+                <div class="author-info-name margin-tb-normal">kudaompq</div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div>文章</div>
+                            <div>31</div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="">
+                            <div>标签</div>
+                            <div>36</div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div>分类</div>
+                            <div>9</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <!-- 最新文章-->
+            <div class="bar shadow-small">
+                <h3 class="bar-title">最新文章</h3>
+                <ul class="bar-list" id="bar-article">
+                    <li><a href="#">Django 博客开发入门教程：前言</a></li>
+                    <li><a href="#">Django 博客开发入门教程：前言</a></li>
+                    <li><a href="#">Django 博客开发入门教程：前言</a></li>
+                    <li><a href="#">Django 博客开发入门教程：前言</a></li>
+                </ul>
+            </div>
+            <!--归档-->
+            <div class="bar shadow-small">
+                <h3 class="bar-title">归档</h3>
+                <ul class="bar-list" id="bar-archive">
+                    <li><a href="#">2021年7月</a></li>
+                    <li><a href="#">2021年6月</a></li>
+                    <li><a href="#">2021年5月</a></li>
+                </ul>
+            </div>
+            <!--分类-->
+            <div class="bar shadow-small">
+                <h3 class="bar-title">分类</h3>
+                <ul class="bar-list" id="bar-category">
+                    <li><a href="#">Django 博客教程 (13)</a></li>
+                    <li><a href="#">Python 教程 (11)</a></li>
+                    <li><a href="#">Django 用户认证 (8)</a></li>
+                </ul>
+            </div>
+            <div class="bar shadow-small">
+                <h3 class="bar-title">标签</h3>
+                <div class="card-tag-cloud text-center">
+                    <a href="#" >golang</a>
+                    <a href="#" >HTTP</a>
+                    <a href="#" >JavaWeb</a>
+                    <a href="#" >Jsp</a>
+                    <a href="#" >Kruskal算法</a>
+                    <a href="#" >matplotlib</a>
+                    <a href="#" >numpy</a>
+                    <a href="#" >sklearn</a>
+                    <a href="#" >pandas</a>
+                    <a href="#" >Cookie</a>
+                    <a href="#" >Session</a>
+                    <a href="#" >开发</a>
+                    <a href="#" >回溯法</a>
+                    <a href="#" >并查集算法</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="container footer">
+    <div class="row">
+        <div class="col-sm-12 text-center margin-tb-large">
+            <p class="footer-copyright">©2020 - 2021 By Kudaompq</p>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+    function onloadFile(){
+        document.getElementById("file").click();
+    }
+</script>
+</body>
+</html>

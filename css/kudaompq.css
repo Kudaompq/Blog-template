@@ -1,0 +1,355 @@
+/* 背景 */
+.index-hearder-bg{
+    background:url("http://images.kudaompq.top/20210812143122.jpg") no-repeat center;
+    background-size: cover;
+    height: calc(100vh);
+    width: 100%;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+/*下边框*/
+.border-bottom{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*字体大小*/
+.font-size-bg{
+    font-size: 1.5rem !important;
+    font-weight: 400;
+}
+.font-size-lg{
+    font-size: 20px;
+    font-weight: 300;
+}
+.font-size-article-header{
+    font-size: 1.9em;
+    line-height: 1.6;
+}
+.font-size-sm{
+    font-size: 13px;
+}
+.font-size-m{
+    font-size: 1.3em;
+}
+.font-size-middle{
+    font-size: 17px;
+    font-weight: 400;
+}
+/*padding*/
+.padding-lg{
+    padding: 50px 40px;
+}
+/*margin*/
+.margin-b-lg{
+    margin-bottom: 60px !important;
+}
+.margin-tb-normal{
+    margin: 15px 0px !important;
+}
+.margin-tb-large{
+    margin: 30px 0px !important;
+}
+.margin-l-normal{
+    margin-left: 15px !important;
+}
+.margin-l-large{
+    margin-left: 30px !important;
+}
+.margin-l-xlarge{
+    margin-left: 43px !important;
+}
+.margin-t-normal{
+    margin-top: 20px !important;
+}
+.margin-ml-normal{
+    margin-left: -20px !important;
+}
+.margin-t-sm{
+    margin-top: 10px;
+}
+/*display*/
+.display-ib{
+    display: inline-block;
+}
+
+/* article */
+.article-index{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.article-index-tags{
+    color: #858585;
+    font-size: 11px !important;
+    margin: 20px 0px !important;
+}
+.article-index-content{
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+/*sidebar*/
+.bar{
+    margin-bottom: 30px;
+    padding: 20px 20px;
+}
+.bar-title{
+    font-size: 1.3em;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.bar-list{
+    list-style: none;
+}
+.bar-list li{
+    margin-left: -10px;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.bar-list li:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -2em;
+    width: 1.5em;
+}
+.bar-tags{
+    padding: 0;
+    margin-left: 15px;
+
+}
+.bar-tags li{
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 3px 8px;
+    border: 1px solid #ddd;
+}
+
+#bar-article li:before{
+    content: "\f054";
+}
+#bar-archive li:before{
+    content: "\f187";
+}
+#bar-category li:before{
+    content: "\f05d";
+}
+
+
+/*边框阴影效果*/
+.shadow-small{
+    border-radius: 8px;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+.shadow-small:hover{
+    -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+    box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+}
+
+/*author*/
+.author-info-name{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/*archive归档*/
+.archive,.category,.comment{
+    margin-bottom: 30px;
+    padding: 50px 40px;
+}
+.archive-header{
+
+}
+.archive-header-title,.category-header-title{
+    font-size: 28px;
+}
+.archive-header-note,.category-header-note{
+    font-size: 13px;
+    color: #777777;
+    margin-top: 5px;
+}
+.archive-item{
+    margin: 10px 0;
+}
+.archive-item-title{
+    padding: 10px 0;
+    font-size: 17px;
+    display: block;
+}
+.archive-item-collection{
+
+}
+.archive-item-collection-content{
+    margin: 10px 0 !important;
+    display: block;
+    font-size: 15px;
+    color: #777777;
+}
+/*archive中icon的更换*/
+.collapsed>.text,.text-active {
+    display:none!important
+}
+.collapsed>.text-active {
+    display:inline-block!important
+}
+.category-list{
+
+}
+.category-item{
+    margin: 13px 0 !important;
+    display: block;
+    font-size: 15px;
+    color: #777777;
+}
+
+/*footer*/
+.footer{
+    border-top: 1px solid #e7e7e7;
+}
+
+/*tag-cloud*/
+.tag-cloud-list a {
+    font-size: 1.2em;
+    margin: 1px;
+    display: inline-block;
+    padding: 0 0.4rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tag-cloud-list a:hover {
+    color: #49b1f5 !important;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+    .tag-cloud-list a {
+        zoom: 0.85;
+    }
+}
+.tag-cloud-title {
+    font-size: 2.57em;
+}
+@media screen and (max-width: 768px) {
+    .tag-cloud-title {
+        font-size: 2em;
+    }
+}
+/*card-tag-cloud*/
+.card-tag-cloud{
+    list-style-type: none;
+}
+.card-tag-cloud a {
+    font-size: 1em;
+    margin: 1px;
+    display: inline-block;
+    padding: 0 0.1rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.card-tag-cloud a:hover {
+    color: #49b1f5 !important;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+    .card-tag-cloud a {
+        zoom: 0.85;
+    }
+}
+
+/*about me*/
+.about-content{
+    margin: 20px 0;
+}
+.about-item{
+    font-size: 15px;
+    margin: 10px 0;
+
+}
+/*comment*/
+.comment-header-title{
+    font-size: 24px;
+}
+.comment-body{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    padding: 23px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.comment-reply-body{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.comment-item{
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 6px rgba(0,0,0,0.06);
+}
+.comment-info{
+
+}
+/*article博客正文*/
+.article-title {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    padding: 10px 20px 0;
+}
+
+.article-meta{
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.article-body{
+    padding: 20px;
+}
+.article-meta {
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.article-content{
+    font-size: 18px;
+    line-height: 1.9;
+    font-weight: 300;
+    color: #000;
+}
+.article-category::after,
+.article-date::after,
+.article-author::after,
+.article-link::after {
+    content: ' ·';
+    color: #000;
+}
+
