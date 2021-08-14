@@ -1,5 +1,5 @@
 # Blog-template
-一个简洁的博客前端模板
+基于bootstrap4的博客前端模板
 ## 主页
 ![Image text](http://images.kudaompq.top/20210814211053.png)
 ![Image text](http://images.kudaompq.top/20210814211128.png)
